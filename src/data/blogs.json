@@ -1,0 +1,14 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Impact of AI on Modern Web Development",
+      "excerpt": "Explore how artificial intelligence is revolutionizing the way we build and maintain web applications...",
+      "category": "AI & Development",
+      "date": "2024-03-15",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      "author": "John Doe",
+      "content": "Artificial Intelligence is transforming web development in unprecedented ways. From AI-powered code completion to automated testing and intelligent debugging, developers are now equipped with tools that significantly enhance productivity and code quality. This article explores the latest AI innovations in web development and their practical applications."
+    }
+  ]
+}

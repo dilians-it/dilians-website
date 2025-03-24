@@ -1,0 +1,30 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Web Development Intern",
+      "description": "Join our web development team as an intern and gain hands-on experience in modern web technologies.",
+      "type": "Internship",
+      "location": "Remote",
+      "requirements": [
+        "Basic knowledge of HTML, CSS, and JavaScript",
+        "Familiarity with React is a plus",
+        "Strong problem-solving skills",
+        "Currently pursuing a degree in Computer Science or related field"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "QA Testing Intern",
+      "description": "Learn software testing methodologies and gain practical experience in quality assurance.",
+      "type": "Internship",
+      "location": "Hybrid",
+      "requirements": [
+        "Basic understanding of software testing principles",
+        "Attention to detail",
+        "Good communication skills",
+        "Currently pursuing a degree in Computer Science or related field"
+      ]
+    }
+  ]
+}

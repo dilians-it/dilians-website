@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 20 20 20;
+    --card: 255 255 255;
+    --card-foreground: 20 20 20;
+    --popover: 255 255 255;
+    --popover-foreground: 20 20 20;
+    --primary: 111 76 255;
+    --primary-foreground: 255 255 255;
+    --secondary: 242 242 247;
+    --secondary-foreground: 20 20 20;
+    --muted: 242 242 247;
+    --muted-foreground: 115 115 115;
+    --accent: 248 246 255;
+    --accent-foreground: 111 76 255;
+    --border: 237 237 242;
+    --input: 237 237 242;
+    --ring: 111 76 255;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 20 20 20;
+    --foreground: 250 250 250;
+    --card: 28 28 28;
+    --card-foreground: 250 250 250;
+    --popover: 28 28 28;
+    --popover-foreground: 250 250 250;
+    --primary: 111 76 255;
+    --primary-foreground: 255 255 255;
+    --secondary: 38 38 38;
+    --secondary-foreground: 250 250 250;
+    --muted: 38 38 38;
+    --muted-foreground: 160 160 160;
+    --accent: 38 38 38;
+    --accent-foreground: 111 76 255;
+    --border: 38 38 38;
+    --input: 38 38 38;
+    --ring: 111 76 255;
+  }
+
+  body {
+    @apply min-h-screen bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+    background-image: 
+      /* Dots pattern */
+      radial-gradient(
+        circle at center,
+        rgba(var(--primary) / 0.15) 0.5px,
+        transparent 0.5px
+      ),
+      /* Star pattern */
+      radial-gradient(
+        circle at 50% 50%,
+        rgba(var(--primary) / 0.1) 1px,
+        transparent 1px
+      ),
+      /* Grid lines */
+      linear-gradient(
+        to right,
+        rgba(var(--primary) / 0.05) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(var(--primary) / 0.05) 1px,
+        transparent 1px
+      );
+    background-size: 
+      24px 24px, /* Dots */
+      120px 120px, /* Stars */
+      48px 48px, /* Grid */
+      48px 48px; /* Grid */
+    background-position: 0 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .nav-blur {
+    @apply bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60;
+  }
+
+  .nav-glass {
+    @apply bg-background/70 backdrop-blur-xl border-b border-border/40 shadow-sm dark:shadow-none;
+  }
+
+  .glass {
+    @apply bg-background/80 backdrop-blur-xl border border-border/40 shadow-sm dark:shadow-none;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg dark:hover:shadow-primary/5 hover:border-primary/20;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-sm hover:bg-primary/90 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg border border-border bg-transparent px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors focus:outline-none focus:ring-2 focus:ring-primary/20;
+  }
+}
