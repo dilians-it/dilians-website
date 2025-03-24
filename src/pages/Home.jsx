@@ -1,12 +1,17 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FaReact, FaNodeJs, FaPython, FaFigma, FaChartBar } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaPython, FaFigma, FaChartBar, FaDatabase } from 'react-icons/fa';
 import { 
   SiTensorflow, 
   SiPytorch, 
   SiOpenai, 
   SiLaravel,
-  SiVuedotjs 
+  SiVuedotjs,
+  SiMysql,
+  SiPostgresql,
+  SiMongodb,
+  SiRedis,
+  SiDocker 
 } from 'react-icons/si';
 
 const Home = () => {
@@ -166,6 +171,17 @@ const services = [
     title: "UI/UX Design",
     description: "Creating user-friendly, intuitive interfaces that offer the best user experience.",
     icon: FaFigma
+  },
+  {
+    title: "Data Analysis & Business Intelligence",
+    description: "Transform raw data into actionable insights for better decision making.",
+    icon: FaChartBar,
+    features: [
+      'Data Analysis & Visualization',
+      'Power BI Dashboard Creation',
+      'Data-Driven Decision Making',
+      'Business Analysis & BI Intelligence'
+    ]
   }
 ];
 
@@ -212,7 +228,12 @@ const technologies = [
   { icon: SiPytorch, name: 'PyTorch' },
   { icon: SiOpenai, name: 'OpenAI' },
   { icon: FaFigma, name: 'Figma' },
-  { icon: FaChartBar, name: 'Power BI' }
+  { icon: FaChartBar, name: 'Power BI' },
+  { icon: SiMysql, name: 'MySQL' },
+  { icon: SiPostgresql, name: 'PostgreSQL' },
+  { icon: SiMongodb, name: 'MongoDB' },
+  { icon: SiDocker, name: 'Docker' },
+  { icon: FaDatabase, name: 'SQL' }
 ];
 
 export default Home;

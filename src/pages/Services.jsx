@@ -120,6 +120,17 @@ const mainServices = [
       'Design Systems',
       'Prototyping'
     ]
+  },
+  {
+    icon: '📊',
+    title: 'Data Analysis & Business Intelligence',
+    description: 'Transform raw data into actionable insights',
+    features: [
+      'Data Analysis & Visualization',
+      'Power BI Dashboard Creation',
+      'Data-Driven Decision Making',
+      'Business Analysis & BI Intelligence'
+    ]
   }
 ];
 
