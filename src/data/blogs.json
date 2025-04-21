@@ -2,16 +2,6 @@
   "blogs": [
     {
       "id": 1,
-      "title": "The Impact of AI on Modern Web Development",
-      "excerpt": "Explore how artificial intelligence is revolutionizing the way we build and maintain web applications...",
-      "category": "AI & Development",
-      "date": "2024-03-15",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-      "author": "John Doe",
-      "content": "# The Impact of AI on Modern Web Development\n\nArtificial Intelligence is transforming web development in unprecedented ways. From AI-powered code completion to automated testing and intelligent debugging, developers are now equipped with tools that significantly enhance productivity and code quality.\n\n## Key AI Innovations in Web Development\n\n- **Smart Code Completion**\n- **Automated Testing Suites**\n- **Intelligent Debugging Tools**\n- **Performance Optimization**\n- **User Behavior Analysis**\n\n## Benefits for Developers\n\n1. Increased Productivity\n2. Better Code Quality\n3. Faster Development Cycles\n4. Reduced Technical Debt\n5. Enhanced User Experience\n\n## Real-World Applications\n\n### Code Generation\n- Auto-complete suggestions\n- Code snippets creation\n- Template generation\n\n### Testing & QA\n- Automated test cases\n- Bug prediction\n- Code review assistance\n\n### Performance\n- Load time optimization\n- Resource management\n- Caching strategies\n\n## Implementation at Dilians IT\n\nAt Dilians IT, we leverage AI tools across our development workflow:\n\n**Development Phase**\n- Code generation and completion\n- Syntax optimization\n- Best practices enforcement\n\n**Testing Phase**\n- Automated testing\n- Error prediction\n- Performance monitoring\n\n**Deployment Phase**\n- Automated deployment\n- Performance optimization\n- User behavior tracking\n\n## Future Implications\n\n- **Enhanced Developer Experience**\n- **Improved Code Quality**\n- **Faster Development Cycles**\n- **Better User Experiences**\n\n## Getting Started with AI Tools\n\n1. **Code Completion Tools**\n   - GitHub Copilot\n   - Tabnine\n   - Kite\n\n2. **Testing Frameworks**\n   - Jest with AI integration\n   - Cypress with ML capabilities\n   - Selenium with AI features\n\n3. **Performance Tools**\n   - AI-powered profilers\n   - Smart optimization tools\n   - Automated benchmarking\n\n## Final Thoughts\n\nAI is revolutionizing web development, making it more efficient and productive. Embrace these tools to stay ahead in the rapidly evolving tech landscape.\n\n---\n\nWant to learn more about AI in web development? Contact us at Dilians IT for expert guidance and implementation strategies."
-    },
-    {
-      "id": 2,
       "title": "Understanding SQL: What It Is, Where It's Used, and Why You Should Learn It",
       "excerpt": "Discover how SQL powers modern data management and why it's an essential skill for tech professionals.",
       "category": "Database & Development",
