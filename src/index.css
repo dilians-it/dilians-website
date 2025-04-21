@@ -22,6 +22,7 @@
     --input: 237 237 242;
     --ring: 111 76 255;
     --radius: 0.75rem;
+    scroll-behavior: smooth;
   }
 
   .dark {
@@ -42,6 +43,10 @@
     --border: 38 38 38;
     --input: 38 38 38;
     --ring: 111 76 255;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   body {
@@ -77,6 +82,7 @@
       48px 48px, /* Grid */
       48px 48px; /* Grid */
     background-position: 0 0;
+    overflow-y: scroll; /* Prevent layout shift */
   }
 
   h1, h2, h3, h4, h5, h6 {

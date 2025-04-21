@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 // Lazy load page components
 const Home = lazy(() => import('./pages/Home'))
@@ -22,6 +23,7 @@ const PageLoader = () => (
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen">
+      <ScrollToTop />
       <Navbar />
       <main className="flex-grow pt-16">
         <Suspense fallback={<PageLoader />}>
